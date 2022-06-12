@@ -26,7 +26,7 @@
         </a>
         
         <a href="code_admin.php">
-        <button type="button" class = "bouton_accueil" id="button3">Accès admin</button>
+        <button type="button" class = "bouton_accueil" id="button3">Accès administrateur</button>
         </a>
     </div>
 
