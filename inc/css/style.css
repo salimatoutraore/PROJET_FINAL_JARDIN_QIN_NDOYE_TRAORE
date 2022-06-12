@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap');
+
+*{ 
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+a{ 
+    text-decoration: none; color: #000; 
+}
+.centre{
+    font-size: 50px;
+    color: #4da258;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #4da258;
+    padding: 10px;
+    flex-direction: column;
+}
+
+img{
+    max-width : 100%;
+    height: auto;
+    text-align: center;
+}
+
+.m_boutons{ 
+    padding: 2em; 
+    text-align: center;
+    color: #078f03; 
+    text-decoration: none;
+}
+
+
+form{
+    text-align: center;
+}
+
+.conteneur{
+    margin: 0 auto;
+}
+
+
+.bouton_accueil,
+.bouton_accueil::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.bouton_accueil {
+  background: none;
+  border: 3px solid #078f03;
+  border-radius: 5px;
+  color: #078f03;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 6em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.bouton_accueil::before,
+.bouton_accueil::after {
+  background: rgb(224, 244, 98);
+  content: '';
+  position: absolute;
+  z-index: -1;
+  height: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.bouton_accueil:hover {
+  color: #438960;
+}
+
+.bouton_accueil:hover:after {
+  height: 100%;
+}
+
+
+/****************************************************TABLEAU************************************************/
+table {
+    border:1px solid black;
+    position:relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    font-size: 20px;
+    color: #357d3f;
+    padding: 10px;
+    border:2px solid black;
+    text-align: center;
+}
+
+td { 
+    border:1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+
+/**************************************************** HAUT ************************************************/
+header { background: #4da258; padding: 5px; text-align: center; }
+
+header  span{ color: #ffffff; font-weight: bold; text-transform: uppercase; margin-right: 5%; }
+
+header  nav{ display: inline; }
+
+header  a{ color: #ffffff; text-decoration: none; padding: 7px; }
+
+header  nav  a:hover{ background: #078f03; }
+
+/**************************************************** MILIEU ************************************************/
+
+section{ 
+    padding: 30px; 
+    min-height: 800px;
+    text-align: center;}
+
+label {
+    font-weight: 100;
+}
+
+input {
+    font-weight: 70;
+}
+
+/**************************************************** BAS ************************************************/
+footer{ background: #595757; color: white; text-align: center; padding: 7px 0;}
+
+/**************************************************** GENERAL ************************************************/
+.erreur{ background: #ff0000; padding: 5px; margin: 5px; }
+
+.validation{ background: #669933; padding: 5px; margin: 5px; }
+
+body {
+    background-color:#ffffff;
+    font-family:Verdana,Helvetica,Arial,sans-serif;
+}
