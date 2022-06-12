@@ -5,7 +5,7 @@
 function connectBD()
 {
     $user = "root";
-    $pass =  "root";
+    $pass =  "";
    
     $db= new PDO('mysql:host=localhost;dbname=repertoire',$user,$pass);
 
